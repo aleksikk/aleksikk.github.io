@@ -1,0 +1,46 @@
+.Cases-wrapper {
+  position: relative;
+}
+
+.Cases-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  background-color: #EBF1F5;
+  padding: 10px;
+  color: black;
+}
+
+.Cases-header {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+}
+
+.Cases-header-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.Cases-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+
+.Cases-list {
+  width: 100%;
+}
+
+.Cases-loading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* margin: 0 auto; */
+}

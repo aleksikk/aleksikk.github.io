@@ -1,0 +1,92 @@
+.CaseOverview-wrapper {
+}
+
+.CaseOverview-header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CaseOverview-header-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.CaseOverview-details-caseName {
+  font-weight: bold;
+  font-size: 2.5em;
+  padding: 10px;
+  align-self: center;
+  /* border-bottom: 1px solid rgba(0,0,0,0.2) */
+}
+
+.CaseOverview-seperator {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.CaseOverview-summary {
+  display: flex;
+  justify-content: center;
+}
+
+.CaseOverview-caseImage {
+  width: 320px;
+}
+
+.CaseOverview-caseImage img {
+  animation: float 5s ease-in-out infinite;
+}
+
+.CaseOverview-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CaseOverview-details-itemstats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.CaseOverview-details-itemstat {
+  padding: 10px;
+}
+
+.CaseOverview-details-caseValue {
+  padding-top: 2.5px;
+}
+
+.CaseOverview-buy {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.CaseOverview-buyButton {
+  font-weight: bold;
+}
+
+.CaseOverview-body {
+  width: 100%;
+}
+
+.CaseOverview-body-title {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  height: 24px;
+  width: 100%;
+}
+
+.CaseOverview-body-caseItems {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

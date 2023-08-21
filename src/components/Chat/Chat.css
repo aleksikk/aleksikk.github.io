@@ -1,0 +1,121 @@
+.Chat-wrapper {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: white;
+  /* border-left: 1px solid rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0), 0 1px 1px rgba(16, 22, 26, 0.2); */
+  /* background-color: red; */
+}
+
+.Chat-header {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 1px 4px -2px black;
+}
+
+.Chat-header-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.Chat-header-social {
+}
+
+.Chat-body {
+  width: 100%;
+  height: calc(100% - 108px);
+  overflow-y: scroll;
+}
+
+.Chat-message {
+  padding: 14px;
+}
+
+.Chat-message:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+}
+
+.Chat-message:nth-child(odd) {
+  /* background-color: rgba(0, 0, 0, .02) */
+  /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.0)); */
+}
+
+.Chat-user {
+  cursor: pointer;
+  height: 30px;
+}
+
+.Chat-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.Chat-username {
+  font-weight: bold;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 15px;
+  width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.Chat-message-message {
+  font-size: 13px;
+  margin-left: 40px;
+  margin-top: -10px;
+  word-wrap: break-word;
+}
+
+/* animations */
+
+.Chat-messages-enter-active,
+.Chat-messages-leave-active {
+  transition: all 0.5s;
+}
+
+.Chat-messages-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.Chat-messages-enter {
+  opacity: 0;
+  transform: translateX(200px);
+}
+
+.Chat-messages-move {
+  transition: transform 0.5s;
+}
+
+.Chat-input-wrapper {
+  width: 100%;
+  height: 60px;
+  padding: 6px;
+}
+
+.Chat-input {
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.12);
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  height: 40px;
+  width: 100%;
+}

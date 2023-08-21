@@ -1,0 +1,24 @@
+.OpenCase-content {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  /* padding: 20px; */
+}
+
+.OpenCase-content img {
+  filter: drop-shadow(0 40px 20px rgba(0, 0, 0, 0.5)) saturate(123%);
+}
+
+/* LATER ON HOVER SHOW ITEMS SCROLLING BY CONTAINED IN THE CASE */
+.OpenCase-content:hover {
+  /* opacity: 0.5; */
+  cursor: pointer;
+}
+
+.OpenCase-key-input {
+  float: left;
+}
+
+/* .options img {
+  position: absolute;
+} */
